@@ -26,10 +26,11 @@ const Show_Mat = () => {
 
   return (
     <div className="flex flex-col items-center ">
-      <div className="bg-white w-1/3 h-70 flex justify-center">
+      <div className="bg-black w-1/4 h-72 flex items-center justify-center ">
         <video
           className="w-full h-full"
-          src={videoUrl}
+          // src={videoUrl}
+          src='/testing.mp4'
           controls
           preload="auto"
           playsInline
