@@ -29,8 +29,8 @@ const Show_Mat = () => {
       <div className="bg-black w-1/4 h-72 flex items-center justify-center ">
         <video
           className="w-full h-full"
-          // src={videoUrl}
-          src='/testing.mp4'
+          src={videoUrl}
+          // src='/testing.mp4'
           controls
           preload="auto"
           playsInline
